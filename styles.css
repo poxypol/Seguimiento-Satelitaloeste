@@ -1,0 +1,76 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+body, html {
+    height: 100%;
+    overflow: hidden;
+    background-color: black;
+}
+
+.background-video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 170%;
+    height: 170%;
+    object-fit: cover;
+    z-index: 0;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+    z-index: 1;
+    margin-left: 15rem;
+}
+
+.content {
+    z-index: 1;
+    padding: 3rem;
+    text-align: left;
+    margin-bottom: 4.1rem;
+}
+
+.content h1 {
+    font-family: "Alumni Sans";
+    font-style: italic;
+    font-size: 7em;
+    margin: 0;
+}
+
+.content h2 {
+    font-size: 3rem;
+    margin-bottom: 0.3rem;
+    margin-top: 0;
+}
+
+.content p {
+    font-size: 1.2rem;
+    margin-bottom: 0.5em;
+    margin-left: 0.3em;
+}
+
+.form {
+    z-index: 1;
+    padding: 0;
+}
+
+fieldset {
+    padding: 0.6rem 2rem;
+    border: 1px solid white;
+    border-radius: 1.7em;
+    color: white;
+    font-size: 1.2rem;
+    width: 50%;
+}
+
+input {
+    padding: 0.7rem;
+    border-radius: 1rem;
+    color: black;
+}
